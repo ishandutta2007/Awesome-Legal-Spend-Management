@@ -79,7 +79,7 @@ Key functional capabilities include:
 
 *Curated open-source software, billing libraries, and legaltech developer tooling sorted by GitHub star count in descending order:*
 
-| Repository | Star Count | Category | Description |
+| Repository | Star_Count | Category | Description |
 | :--- | :---: | :--- | :--- |
 | **[Firefly III](https://github.com/firefly-iii/firefly-iii)** | [![GitHub stars](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers) | Expense & Financial Management | Self-hosted financial manager and expense tracking pipeline with a robust REST API for managing budgets and transactions. |
 | **[Lago](https://github.com/getlago/lago)** | [![GitHub stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Metering & Billing Engine | Open-source billing, metering, and invoicing engine for consumption-based, hybrid, and professional services rate structures. |
