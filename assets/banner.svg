@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#c084fc;#38bdf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#c084fc;#38bdf8;#818cf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#c084fc">
+        <animate attributeName="stop-color" values="#c084fc;#38bdf8;#818cf8;#c084fc" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      fill: url(#accentGrad);
+      filter: drop-shadow(0 4px 12px rgba(99, 102, 241, 0.4));
+    }
+    .subtitle-text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 400;
+      font-size: 19px;
+      fill: #94a3b8;
+    }
+    .badge-pill {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #38bdf8;
+    }
+    .grid-line {
+      stroke: #334155;
+      stroke-width: 1;
+      opacity: 0.25;
+    }
+    .pulse-circle {
+      animation: pulse 3s ease-in-out infinite;
+    }
+    .float-item {
+      animation: float 6s ease-in-out infinite;
+    }
+    .float-item-delay {
+      animation: float 6s ease-in-out 3s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.4; }
+      50% { transform: scale(1.08); opacity: 0.8; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Geometric Grid Background Pattern -->
+  <g class="grid-line">
+    <line x1="100" y1="0" x2="100" y2="360" />
+    <line x1="200" y1="0" x2="200" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="500" y1="0" x2="500" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="700" y1="0" x2="700" y2="360" />
+    <line x1="800" y1="0" x2="800" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+    <line x1="1100" y1="0" x2="1100" y2="360" />
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+  </g>
+
+  <!-- Glowing background ambient blobs -->
+  <circle cx="150" cy="180" r="120" fill="#6366f1" opacity="0.15" filter="url(#glow)" class="pulse-circle" />
+  <circle cx="1050" cy="180" r="140" fill="#38bdf8" opacity="0.12" filter="url(#glow)" class="pulse-circle" />
+
+  <!-- Left Icon Art: Legal Scales & Analytics Chart -->
+  <g transform="translate(60, 95)" class="float-item">
+    <rect width="110" height="110" rx="24" fill="#1e293b" stroke="#4f46e5" stroke-width="2" filter="url(#subtleGlow)" />
+    <path d="M55 24 L55 86 M35 42 L75 42 M35 42 L25 62 L45 62 Z M75 42 L65 62 L85 62 Z" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="55" cy="24" r="4" fill="#818cf8" />
+    <circle cx="55" cy="86" r="3" fill="#818cf8" />
+  </g>
+
+  <!-- Right Icon Art: Analytics Bar & AI Shield -->
+  <g transform="translate(1030, 95)" class="float-item-delay">
+    <rect width="110" height="110" rx="24" fill="#1e293b" stroke="#0ea5e9" stroke-width="2" filter="url(#subtleGlow)" />
+    <path d="M25 80 L40 60 L60 70 L85 36" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="85" cy="36" r="4" fill="#c084fc" filter="url(#subtleGlow)" />
+    <line x1="25" y1="85" x2="85" y2="85" stroke="#64748b" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Category Tag / Pill Top -->
+  <g transform="translate(210, 48)">
+    <rect width="360" height="30" rx="15" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2" opacity="0.9" />
+    <circle cx="16" cy="15" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="20" class="badge-pill">CURATED LEGALTECH &amp; SPEND MANAGEMENT</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="210" y="132" class="title-text">Awesome Legal Spend Management</text>
+
+  <!-- Subtitle Lines -->
+  <text x="210" y="176" class="subtitle-text">Curated Directory of Legal Operations, E-Billing &amp; Matter Spend Platforms</text>
+  <text x="210" y="208" class="subtitle-text" font-size="16px" fill="#64748b">LEDES &amp; UTBMS Standards • Invoice Analytics • Outside Counsel Guidelines • Open-Source Tools</text>
+
+  <!-- Feature Pills Bottom -->
+  <g transform="translate(210, 245)">
+    <g transform="translate(0, 0)">
+      <rect width="170" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-size="13px" fill="#cbd5e1" font-weight="500">🏢 SaaS Benchmarks</text>
+    </g>
+    <g transform="translate(180, 0)">
+      <rect width="165" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-size="13px" fill="#cbd5e1" font-weight="500">⚡ Open Source Tools</text>
+    </g>
+    <g transform="translate(355, 0)">
+      <rect width="180" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-size="13px" fill="#cbd5e1" font-weight="500">📊 E-Billing &amp; Analytics</text>
+    </g>
+    <g transform="translate(545, 0)">
+      <rect width="185" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-size="13px" fill="#cbd5e1" font-weight="500">💰 Pricing &amp; Trial Limits</text>
+    </g>
+  </g>
+
+  <!-- Bottom Animated Glowing Accent Line -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#accentGrad)" />
+</svg>
