@@ -42,63 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Brightflag](https://www.brightflag.com/)**  
-
-  AI-assisted legal spend and matter management — automated invoice review, guideline compliance, and spend analytics for in-house teams.
-
-
-
-- **[SimpleLegal](https://www.simplelegal.com/)**  
-
-  Enterprise legal management platform covering e-billing, matter management, vendor oversight, and reporting for corporate legal departments.
-
-
-
-- **[Thomson Reuters Legal Tracker](https://legal.thomsonreuters.com/en/products/legal-tracker)**  
-
-  Established legal spend and matter management solution with e-billing, accruals, and outside counsel management.
-
-
-
-- **[Onit](https://www.onit.com/)**  
-
-  Legal operations and workflow platform that includes spend control, matter intake, and process automation for legal teams.
-
-
-
-- **[Mitratech TeamConnect](https://mitratech.com/products/teamconnect/)**  
-
-  Enterprise legal management system with matter, spend, and operations capabilities used by large legal departments.
-
-
-
-- **[LawVu](https://lawvu.com/)**  
-
-  Modern matter and legal operations platform with spend visibility and collaboration features for in-house counsel.
-
-
-
-- **[BusyLamp](https://www.busylamp.com/)**  
-
-  Legal spend and e-billing focused solutions for corporate legal and finance teams.
-
-
-
-- **[Apperio](https://www.apperio.com/)**  
-
-  Legal spend analytics and visibility platform oriented toward real-time insight into outside counsel costs.
-
-
-
-- **[Quovant](https://www.quovant.com/)**  
-
-  Legal spend management and e-billing services/platform for controlling and analyzing legal invoices.
-
-
-
-- **[SpendHQ (Legal / spend modules)](https://www.spendhq.com/)**  
-
-  Spend management platform with capabilities applied to legal and professional services spend categories.
+| Platform | Focus & Capabilities | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Brightflag](https://www.brightflag.com/)** | AI-assisted legal spend and matter management — automated invoice review, guideline compliance, and spend analytics for in-house teams. | ~$15,000 / year (base tier scaled by annual legal spend; unlimited users) | No perpetual free tier; 14-day guided proof-of-concept (POC) trial available on request with sample invoice ingestion |
+| **[SimpleLegal](https://www.simplelegal.com/)** | Enterprise legal management platform covering e-billing, matter management, vendor oversight, and reporting for corporate legal departments. | ~$10,000 / year (~$833 / month billed annually for Standard tier) | No perpetual free tier; 14-day guided trial upon demo request (limited to 5 user seats and test matter uploads) |
+| **[Thomson Reuters Legal Tracker](https://legal.thomsonreuters.com/en/products/legal-tracker)** | Established legal spend and matter management solution with e-billing, accruals, and outside counsel management. | ~$12,000 / year (base platform subscription tier) | No perpetual free tier; 30-day evaluation pilot provided for enterprise prospects following sales consultation |
+| **[Onit](https://www.onit.com/)** | Legal operations and workflow platform that includes spend control, matter intake, and process automation for legal teams. | ~$25,000 / year (starting tier for core spend & workflow automation) | No perpetual free tier; 30-day custom proof-of-concept (POC) trial with scoped workflow and matter limits |
+| **[Mitratech TeamConnect](https://mitratech.com/products/teamconnect/)** | Enterprise legal management system with matter, spend, and operations capabilities used by large legal departments. | ~$35,000 / year (starting tier for core ELM deployment) | No perpetual free tier; 30-day sandbox pilot environment for qualified enterprise accounts |
+| **[LawVu](https://lawvu.com/)** | Modern matter and legal operations platform with spend visibility and collaboration features for in-house counsel. | $500 / month (starts at $500/mo for Draft; ~$18,000/yr for LegalOS core tier) | No perpetual free tier; 14-day free trial for select modules (Draft/Workspace) with full feature access for up to 5 users |
+| **[BusyLamp](https://www.busylamp.com/)** | Legal spend and e-billing focused solutions for corporate legal and finance teams (eBilling.Space). | ~€12,000 / year (~$13,000 / year for base e-billing module) | No perpetual free tier; 14-day guided sandbox trial upon request with sample LEDES invoice testing |
+| **[Apperio](https://www.apperio.com/)** | Legal spend analytics and visibility platform oriented toward real-time insight into outside counsel costs. | ~£10,000 / year (~$12,500 / year for starter analytics tier) | No perpetual free tier; 30-day pilot trial with up to 3 law firm practice management system integrations |
+| **[Quovant](https://www.quovant.com/)** | Legal spend management and e-billing services/platform for controlling and analyzing legal invoices. | ~$15,000 / year (base tier for LegalBill compliance review & analytics) | No perpetual free tier; 30-day guided pilot evaluation with sample historical invoice audit dataset |
+| **[SpendHQ](https://www.spendhq.com/)** | Spend management platform with capabilities applied to legal and professional services spend categories. | ~$25,000 / year (base spend intelligence module subscription) | No perpetual free tier; 14-to-30-day proof-of-concept (POC) trial with up to $50M customer spend data sample ingest |
 
 
 
